@@ -8,6 +8,7 @@
 @import '../css/fonts.css';
 @import '../css/body.css';
 @import '../css/link.css';
+@import '../css/button-icon.css';
 
 :root { 
   --primary: #00b050; 
