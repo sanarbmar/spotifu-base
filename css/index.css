@@ -1,18 +1,13 @@
-@import '../font/Avenir Next Condensed.ttc';
+/* @import '../font/Avenir Next Condensed.ttc';
 @import '../font/Avenir Next.ttc';
 @import '../font/Avenir.ttc';
 @import '../font/AvenirLTStd-Black.otf';
 @import '../font/AvenirLTStd-Book.otf';
-@import '../font/AvenirLTStd-Roman.otf';
+@import '../font/AvenirLTStd-Roman.otf'; */
 @import '../css/icons.css';
-
-@font-face {
-  font-family: 'Avenir';
-  src: url("../font/AvenirLTStd-Roman.otf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import '../css/fonts.css';
+@import '../css/body.css';
+@import '../css/link.css';
 
 :root { 
   --primary: #00b050; 
@@ -23,37 +18,13 @@
   --gray40: #181818; 
   --gray50: #121212; 
   --gray60: #000000; 
-  --headline1: 900 2rem/normal 'Avenir'; 
-  --headline2: bold 1.5rem/1.75rem 'Avenir'; 
-  --button: 500 0.875rem/1rem 'Avenir'; 
-  --subtitle2: normal 0.75rem/normal 'Avenir'; 
-  --smallfont: normal 0.65625rem/normal 'Avenir'; 
-  --basefont-normal: normal 0.875rem/1.375rem 'Avenir'; 
-  --basefont-bold: 900 0.875rem/1.375rem 'Avenir'; 
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+  --headline1:bold 2rem/normal var(--basefontFamily);
+  --headline2:bold 1.5rem/1.75rem var(--basefontFamily);
+  --baseFont:normal .875rem/1.375rem var(--basefontFamily);
+  --baseFontBold:bold .875rem/1.375rem var(--basefontFamily);
+  --button:bold .875rem/1rem var(--basefontFamily);
+  --small: normal .75em/normal var(--basefontFamily); 
 }
 
-body {
-  font: var(--basefont-normal);
-  background: var(--primary);
-}
 
-button{
-  font-size: 40px;
-  color: green;
-}
-button:hover{
-  color:black;
-}
-
-h1{
-  font: var(--headline1);
-  color: var(--primary);
-}
-
-h2{
-  font: var(--headline2);
-}
-
-p{
-  color: var(--gray20);
-}
