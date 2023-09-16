@@ -37,6 +37,14 @@ body {
   background: var(--primary);
 }
 
+button{
+  font-size: 40px;
+  color: green;
+}
+button:hover{
+  color:black;
+}
+
 h1{
   font: var(--headline1);
   color: var(--primary);
