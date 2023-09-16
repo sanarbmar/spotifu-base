@@ -1,0 +1,22 @@
+ /* selecciona cuando empieza con icon-,*/
+[class^='icon-'], [class*='icon-']{
+    inline-size: 50px;
+    block-size: 50px;
+    background-size: cover; 
+    display: inline-block;
+}
+
+.icon-home{
+    background-image: url('../icons/home.svg');
+    /* inline-size: 50px;
+    block-size: 50px;
+    background-size: cover;  para resolver problemas de tamaño en imagenes en divs 
+    display: inline-block; */
+}
+.icon-home-active{
+    inline-size: 80px;
+    block-size: 80px;
+    background-image: url('../icons/home-active.svg');
+    background-size: cover; 
+    display: inline-block;
+}

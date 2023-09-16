@@ -4,6 +4,7 @@
 @import '../font/AvenirLTStd-Black.otf';
 @import '../font/AvenirLTStd-Book.otf';
 @import '../font/AvenirLTStd-Roman.otf';
+@import '../css/icons.css';
 
 @font-face {
   font-family: 'Avenir';
@@ -33,6 +34,7 @@
 
 body {
   font: var(--basefont-normal);
+  background: var(--primary);
 }
 
 h1{
