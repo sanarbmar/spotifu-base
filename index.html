@@ -10,22 +10,80 @@
 </head>
 
 <body class="body">
-<div>
+  <!-- role="banner" cuando es div -->
+  <header class="logo">
+    <a href="/" aria-current="page">
+      <img src="./images/spotifu-logo.png" class="logo-image" alt="Logo de Spotifu" width="112" height="36">
+    </a>
+  </header>
 
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
+  <!-- se le pone el id al titulo y la propiedad aria-labelledbya la nav para indicar cuando hay mas de 2 nav -->
+  <nav class="list" aria-labelledby="library-navigation"> 
+    <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+    <ul class="list-content">
+      <li class="list-item">
+        <a href="#" class="link">Creada para ti</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Escuchado recientemente</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Tus Me Gusta</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <nav class="list" aria-labelledby="playlist-navigation">
+    <h2 class="list-tit le" id="playlist-navigation">Playlist</h2>
+    <ul class="list-content">
+      <li class="list-item">
+        <a href="#" class="link">Lo mejor de los mejor</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Naruto al 100% para progr…</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Para cantar en la ducha</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Sin parar</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Naruto openings</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Boku no pico</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">This is Pokémon</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Más populares de la semana</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Mis pistas de shazam</a>
+      </li>
+      <li class="list-item">
+        <a href="#" class="link">Audio Library</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div>
+    <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
       <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  
-  <button class="buttonIcon" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
-  <i class="icon-play" aria-hidden="true"></i>
-  </button>
-</div>
+    </button>
 
-
+    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
+      <i class="icon-play" aria-hidden="true"></i>
+    </button>
+  </div>
+    <!-- <button class="buttonIcon" aria-label="Reproducir" title="Reproducir"> accecibilidad
+      <i class="icon-play" aria-hidden="true"></i>
+    </button>
+  </div>
+ -->
 
 
 

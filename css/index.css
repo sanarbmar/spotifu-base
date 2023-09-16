@@ -9,7 +9,8 @@
 @import '../css/body.css';
 @import '../css/link.css';
 @import '../css/button-icon.css';
-
+@import '../css/logo.css';
+@import '../css/list.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
