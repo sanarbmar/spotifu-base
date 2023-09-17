@@ -9,9 +9,8 @@
 @import '../css/body.css';
 @import '../css/link.css';
 @import '../css/button-icon.css';
-@import '../css/logo.css';
-@import '../css/list.css';
-@import '../css/menu.css';
+@import '../css/sidebar.css';
+@import '../css/ellipsis.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 

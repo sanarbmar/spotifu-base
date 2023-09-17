@@ -7,99 +7,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
   <title>Spotifu</title>
+  <meta property="og:title" content="Proyecto Leonidas esteban Spotifu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="la de gir hub pages" />
+  <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /> 
+  <meta property="og:description" 
+  content="Proyecto con flexbox en leonidasesteban.com." /> 
 </head>
 
 <body class="body">
-  <!-- role="banner" cuando es div -->
-  <header class="logo">
-    <a href="/" aria-current="page">
-      <img src="./images/spotifu-logo.png" class="logo-image" alt="Logo de Spotifu" width="112" height="36">
-    </a>
-  </header>
 
-  <nav class="menu" aria-label="Principal">
-    <ul class="menu-list">
-      <li class="menuItem ">
-        <a href="/" aria-current="page" class="link">
-          <i class="icon-home" aria-hidden="true"></i>
-          <span>Inicio</span>
-        </a>
-      </li>
+  <div class="sidebar">
+    <header class="logo">
+      <a href="/" aria-current="page">
+        <img src="./images/spotifu-logo.png" class="logo-image" alt="Logo de Spotifu" width="112" height="36">
+      </a>
+    </header>
 
-      <li class="menuItem "">
-        <a href="/" aria-current="page" class="link">
+    <nav class="menu" aria-label="Principal">
+      <ul class="menu-list">
+        <li class="menuItem ">
+          <a href="/" aria-current="page" class="link">
+            <i class="icon-home" aria-hidden="true"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+
+        <li class="menuItem "">
+          <a href=" /" aria-current="page" class="link">
           <i class="icon-search" aria-hidden="true"></i>
           <span>Buscar</span>
-        </a>
-      </li>
+          </a>
+        </li>
 
-      <li class="menuItem is-active"">
-        <a href="/" aria-current="page" class="link">
+        <li class="menuItem is-active"">
+          <a href=" /" aria-current="page" class="link">
           <i class="icon-creditCard" aria-hidden="true"></i>
           <span>Premium</span>
-        </a>
-      </li>
-      
-    </ul>
-  </nav>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
 
 
+    <!-- se le pone el id al titulo y la propiedad aria-labelledbya la nav para indicar cuando hay mas de 2 nav -->
+    <nav class="list" aria-labelledby="library-navigation">
+      <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="#" class="link">Creada para ti</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Escuchado recientemente</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Tus Me Gusta</a>
+        </li>
+      </ul>
+    </nav>
 
 
+    <nav class="list" aria-labelledby="playlist-navigation">
+      <h2 class="list-tit le" id="playlist-navigation">Playlist</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="#" class="link">Lo mejor de los mejor</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Naruto al 100% para progr…</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Para cantar en la ducha</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Sin parar</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Naruto openings</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Boku no pico</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">This is Pokémon</a>
+        </li>
+        <li class="list-item">
+          <span class="ellipsis">
+            <a href="#" class="link">Más populares de la semana para ti que eres un pro</a>
+          </span>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Mis pistas de shazam</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="link">Audio Library</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- role="banner" cuando es div(landmarks) -->
 
 
-  <!-- se le pone el id al titulo y la propiedad aria-labelledbya la nav para indicar cuando hay mas de 2 nav -->
-  <nav class="list" aria-labelledby="library-navigation"> 
-    <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
-    <ul class="list-content">
-      <li class="list-item">
-        <a href="#" class="link">Creada para ti</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Escuchado recientemente</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Tus Me Gusta</a>
-      </li>
-    </ul>
-  </nav>
-
-
-  <nav class="list" aria-labelledby="playlist-navigation">
-    <h2 class="list-tit le" id="playlist-navigation">Playlist</h2>
-    <ul class="list-content">
-      <li class="list-item">
-        <a href="#" class="link">Lo mejor de los mejor</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Naruto al 100% para progr…</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Para cantar en la ducha</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Sin parar</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Naruto openings</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Boku no pico</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">This is Pokémon</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Más populares de la semana</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Mis pistas de shazam</a>
-      </li>
-      <li class="list-item">
-        <a href="#" class="link">Audio Library</a>
-      </li>
-    </ul>
-  </nav>
 
   <div>
     <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir"> <!-- accecibilidad -->
@@ -110,7 +120,7 @@
       <i class="icon-play" aria-hidden="true"></i>
     </button>
   </div>
-    <!-- <button class="buttonIcon" aria-label="Reproducir" title="Reproducir"> accecibilidad
+  <!-- <button class="buttonIcon" aria-label="Reproducir" title="Reproducir"> accecibilidad
       <i class="icon-play" aria-hidden="true"></i>
     </button>
   </div>
