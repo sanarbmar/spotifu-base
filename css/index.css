@@ -11,6 +11,7 @@
 @import '../css/button-icon.css';
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
+@import '../css/slider.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
