@@ -4,6 +4,6 @@
 }
 .playerVolume-slider{
     flex: 1;
-    max-inline-size: 6%;
+    inline-size: 6rem;
     
 }

@@ -11,12 +11,7 @@
 @import '../css/button-icon.css';
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
-@import '../css/slider.css';
-@import '../css/player-controls.css';
-@import '../css/player-playback.css';
-@import '../css/player-volumen.css';
 @import '../css/player.css';
-@import '../css/now-playing.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
