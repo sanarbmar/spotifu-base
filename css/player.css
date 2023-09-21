@@ -1,0 +1,12 @@
+.player{
+
+}
+.player-control{
+    border: none;
+    padding: none;
+    background: none;
+    color: var(--gray10);
+    font-size: 1.5rem; /* como es icono el tamaño se pone con font size, ojo en figma con el vector. */
+    padding: .5rem;
+    cursor: pointer;
+}

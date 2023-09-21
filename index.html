@@ -22,7 +22,7 @@
 
 
   <div class="playerControls">
-    <div class="playerControls-buttons">
+    <div class="playerControls-buttons" aria-label="Controles De Reproduccion">
       <button class="buttonIcon" aria-label="Anterior" title="Anterior"> <!-- accecibilidad -->
         <i class="icon-prev" aria-hidden="true"></i>
       </button>
@@ -35,7 +35,7 @@
         <i class="icon-next" aria-hidden="true"></i>
       </button>
     </div>
-    <div class="playerPlayback">
+    <div class="playerPlayback" >
       <span class="playerPlayback-progressTime">01:40</span>
       <div class="playerPlayback-slider">
         <div class="slider">
@@ -47,6 +47,19 @@
       <span class="playerPlayback-progressTime">01:40</span>
     </div>
 
+  </div>
+
+  <div class="playerVolume">
+    <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+      <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen Alto"></i>
+    </button>
+    <div class="playerVolume-slider">
+      <div class="slider">
+        <div class="slider-progress">
+          <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+        </div>
+      </div>
+    </div>
   </div>
 
 
