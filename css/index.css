@@ -12,6 +12,7 @@
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
 @import '../css/player.css';
+@import '../css/playlist-a.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
