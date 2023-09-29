@@ -15,6 +15,7 @@
 @import '../css/playlist-a.css';
 @import '../css/playlist-b.css';
 @import '../css/playlist-list.css';
+@import '../css/search.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
