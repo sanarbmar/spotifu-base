@@ -1,5 +1,5 @@
 .playlistA{
-    inline-size: 13em;
+    inline-size: 13em; /* 1 em---14px */
     padding: 1rem;
     border-radius: .25rem;
     background: var(--gray40);
@@ -20,7 +20,9 @@
 }
 
 .playlistA-cover img{
-    vertical-align: middle; /* para quitar el espacio de las imagens */
+    vertical-align: middle; /* para quitar el espacio de las imagens , por eso quedaba el boton por afuera*/
+    inline-size: 100%;
+    block-size: auto;
 
 }
 .playlistA-cover{
@@ -36,7 +38,7 @@
     opacity: 0;
     transform: translateY(.5rem); /* pequeña trancicion que hace que se mueva en Y */
     will-change: opacity, transform;
-    transition: .3s opacity .3s transform; /* pequeña animacion con opacity */
+    transition: .3s opacity, .3s transform; /* pequeña animacion con opacity */
 }
 
 
