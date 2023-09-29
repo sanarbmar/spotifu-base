@@ -16,6 +16,7 @@
 @import '../css/playlist-b.css';
 @import '../css/playlist-list.css';
 @import '../css/search.css';
+@import '../css/navigation.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
