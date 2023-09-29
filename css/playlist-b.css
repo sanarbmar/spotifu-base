@@ -1,10 +1,10 @@
 .playlistB{
-
     display: flex;
     inline-size:17.5rem;
     border-radius: .5rem;
     overflow: hidden;
     background: rgba(255, 255, 255, .1);
+    /* flex-shrink: 0; */
 }
 .playlistB:hover, .playlistB:focus-within{
     background: rgba(255, 255, 255, .2);
