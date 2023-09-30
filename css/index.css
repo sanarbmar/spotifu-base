@@ -12,13 +12,8 @@
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
 @import '../css/player.css';
-@import '../css/playlist-a.css';
-@import '../css/playlist-b.css';
-@import '../css/playlist-list.css';
-@import '../css/search.css';
-@import '../css/navigation.css';
-@import '../css/header.css';
-@import '../css/sticky.css';
+
+@import '../css/page.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
