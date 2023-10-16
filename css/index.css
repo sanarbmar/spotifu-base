@@ -13,6 +13,7 @@
 @import '../css/ellipsis.css';
 @import '../css/player.css';
 @import '../css/page.css';
+@import '../css/layout.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
