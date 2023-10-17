@@ -14,6 +14,7 @@
 @import '../css/player.css';
 @import '../css/page.css';
 @import '../css/layout.css';
+@import '../css/scrollbar.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 
